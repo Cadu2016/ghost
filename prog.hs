@@ -41,5 +41,5 @@ teste lis = length (filter (==' ')lis)
 
 --Exerc5
 
-teste5 :: [Int] -> [Int]
-teste5 lis = map (*3^2 + 2/ + 1)lis
+teste5 :: [Float] -> [Float]
+teste5 lis = map (\n ->  *3^2 + 2/n + 1)lis
